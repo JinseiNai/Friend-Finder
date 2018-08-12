@@ -36,6 +36,6 @@ module.exports = function (app) {
 
         users.push(newUser);
 
-        res.json(newUser);
+        res.json({status: 'Ok', friendName: friendName, friendImage: friendImage});
     })
 }
