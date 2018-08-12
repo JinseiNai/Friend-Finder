@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "App that matches you with others who are similar to you.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinseiNai/Friend-Finder.git"
+  },
+  "author": "Calvin Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JinseiNai/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/JinseiNai/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
